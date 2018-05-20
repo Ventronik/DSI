@@ -10,35 +10,20 @@
     <link rel="icon" href="http://v4-alpha.getbootstrap.com/favicon.ico">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 
-    <title>Navbar Template for Bootstrap</title>
-
     <!-- Bootstrap core CSS -->
+    <link href="http://v4-alpha.getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="http://v4-alpha.getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="http://v4-alpha.getbootstrap.com/examples/navbar/navbar.css" rel="stylesheet">
+    <!-- <link href="http://v4-alpha.getbootstrap.com/examples/navbar/navbar.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="./index.css" />
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="http://v4-alpha.getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
   </head>
 
   <body>
-
     <div class="container">
-
-      <div class="collapse" id="navbar-header">
-        <div class="inverse p-a">
-          <h3>Collapsed content</h3>
-          <p>Toggleable via the navbar brand.</p>
-        </div>
-      </div>
-      <div class="navbar navbar-default navbar-static-top">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-header">
-          ☰
-        </button>
-      </div>
-
-      <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron">
         <h1>The Geurin Report</h1>
         <p>A quick access of data relevant to identifying clients disengaging from product use.</p>
@@ -46,11 +31,10 @@
           <a class="btn btn-lg btn-primary" href="" role="button">Methodology Report »</a>
         </p>
       </div>
-
     </div> <!-- /container -->
 
-<div class="container">
-    <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+<div class="container data-table" id="table">
+    <div class="main">
       <h1 class="page-header">Disengagement Index</h1>
 
       <!-- <h2 class="sub-header">Clients disengaging</h2> -->
@@ -70,11 +54,15 @@
           <tbody>
             <tr data-toggle="collapse" data-target="#Row1" class="clickable">
               <td>001</td>
-              <td>Minerva McGonagall, Minerva McGonagall, Minerva McGonagall, Minerva McGonagall, Minerva McGonagall, Minerva McGonagall, Minerva McGonagall, Minerva McGonagall, Minerva McGonagall, Minerva McGonagall, Minerva McGonagall</td>
+              <td>Minerva McGonagall</td>
               <td>67.67%</td>
               <td>6 weeks, 3 days</td>
               <td>1st Tutorial</td>
-              <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="fas fa-chart-line"></i></button></td>
+              <td>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">
+                  <img src="https://slack-imgs.com/?c=1&url=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsparklines%2Fsparklines%2Fsparkline_1000_thumb.png">
+                </button>
+              </td>
               <td>
                 <i class="fas fa-heart"></i>
                 <i class="fas fa-heart"></i>
@@ -101,7 +89,11 @@
               <td>67.67%</td>
               <td>9 weeks</td>
               <td>10th Tutorial</td>
-                <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="fas fa-chart-line"></i></button></td>
+              <td>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">
+                  <img src="https://slack-imgs.com/?c=1&url=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsparklines%2Fsparklines%2Fsparkline_1000_thumb.png">
+                </button>
+              </td>
               <td>
                 <i class="fas fa-heart"></i>
                 <i class="fas fa-heart"></i>
@@ -129,7 +121,11 @@
               <td>67.67%</td>
               <td>4 weeks</td>
               <td>3rd Tutorial</td>
-                <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="fas fa-chart-line"></i></button></td>
+              <td>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">
+                  <img src="https://slack-imgs.com/?c=1&url=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsparklines%2Fsparklines%2Fsparkline_1000_thumb.png">
+                </button>
+              </td>
               <td>
                 <i class="fas fa-heart"></i>
                 <i class="fas fa-heart"></i>
@@ -148,7 +144,11 @@
               <td>67.67%</td>
               <td>2 weeks, 6 days</td>
               <td>1st Tutorial</td>
-                <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="fas fa-chart-line"></i></button></td>
+              <td>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">
+                  <img src="https://slack-imgs.com/?c=1&url=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsparklines%2Fsparklines%2Fsparkline_1000_thumb.png">
+                </button>
+              </td>
               <td>
                 <i class="fas fa-heart"></i>
                 <i class="fas fa-heart"></i>
@@ -168,7 +168,11 @@
               <td>67.67%</td>
               <td>3 weeks, 3 days</td>
               <td>6th Tutorial</td>
-                <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="fas fa-chart-line"></i></button></td>
+              <td>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">
+                  <img src="https://slack-imgs.com/?c=1&url=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsparklines%2Fsparklines%2Fsparkline_1000_thumb.png">
+                </button>
+              </td>
               <td>
                 <i class="fas fa-heart"></i>
                 <i class="fas fa-heart"></i>
@@ -187,7 +191,11 @@
               <td>67.67%</td>
               <td>15 weeks</td>
               <td>2nd Tutorial</td>
-                <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="fas fa-chart-line"></i></button></td>
+              <td>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">
+                  <img src="https://slack-imgs.com/?c=1&url=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsparklines%2Fsparklines%2Fsparkline_1000_thumb.png">
+                </button>
+              </td>
               <td>
                 <i class="fas fa-heart"></i>
 
@@ -204,7 +212,11 @@
               <td>67.67%</td>
               <td>7 weeks, 3 days</td>
               <td>5th Tutorial</td>
-                <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="fas fa-chart-line"></i></button></td>
+              <td>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">
+                  <img src="https://slack-imgs.com/?c=1&url=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsparklines%2Fsparklines%2Fsparkline_1000_thumb.png">
+                </button>
+              </td>
               <td>
                 <i class="fas fa-heart"></i>
                 <i class="fas fa-heart"></i>

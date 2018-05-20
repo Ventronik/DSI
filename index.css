@@ -1,0 +1,19 @@
+div#table.container.data-table{
+  margin-left: 20px !important;
+  margin-right: 20px !important ;
+}
+@media (min-width: 768px)
+.container {
+    width: 728x;
+    max-width: 100%;
+}
+
+@media (min-width: 576px)
+.container {
+    width: 536px;
+    max-width: 100%;
+}
+
+img {
+  max-width: 200px;
+}
