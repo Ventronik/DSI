@@ -1,0 +1,48 @@
+export default
+[
+    {
+    "id":1,
+    "name": "James Woods High School",
+    "probability": 67,
+    "outFor":"4 weeks",
+    "stalledAt":"First Tutorial",
+    "Analytics":"https://slack-imgs.com/?c=1&url=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsparklines%2Fsparklines%2Fsparkline_1000_thumb.png",
+    "heartRating":2,
+  },
+  {
+    "id":2,
+    "name": "John Adams High School",
+    "probability":85,
+    "outFor":"6 years, 1 month",
+    "stalledAt":"Third Tutorial",
+    "Analytics":"https://slack-imgs.com/?c=1&url=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsparklines%2Fsparklines%2Fsparkline_1000_thumb.png",
+    "heartRating":4,
+  },
+  {
+    "id":3,
+    "name": "John F. Kennedy High School",
+    "probability":77,
+    "outFor":"3 months",
+    "stalledAt":"Second Tutorial",
+    "Analytics":"https://slack-imgs.com/?c=1&url=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsparklines%2Fsparklines%2Fsparkline_1000_thumb.png",
+    "heartRating":3,
+  },
+  {
+    "id":4,
+    "name": "Xavier Institute",
+    "probability":89,
+    "outFor":"3 months",
+    "stalledAt":"Eighth Tutorial",
+    "Analytics":"https://slack-imgs.com/?c=1&url=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsparklines%2Fsparklines%2Fsparkline_1000_thumb.png",
+    "heartRating":1,
+  },
+  {
+    "id":5,
+    "name": "Hogwarts",
+    "probability":95,
+    "outFor":"2 months",
+    "stalledAt":"Implementation",
+    "Analytics":"https://slack-imgs.com/?c=1&url=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsparklines%2Fsparklines%2Fsparkline_1000_thumb.png",
+    "heartRating":5,
+  },
+]
